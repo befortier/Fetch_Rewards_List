@@ -1,0 +1,6 @@
+framework module Pods_Fetch_Reward_Lists {
+  umbrella header "Pods-Fetch Reward Lists-umbrella.h"
+
+  export *
+  module * { export * }
+}

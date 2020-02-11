@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.8.2)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - OpenSans (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - NVActivityIndicatorView
+  - OpenSans
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - NVActivityIndicatorView
+    - OpenSans
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  OpenSans: 33078846463eae780aa5f82986b51cce085f970d
+
+PODFILE CHECKSUM: 18db9e0839f1ca506621bffc3a81458cc791aec2
+
+COCOAPODS: 1.5.3

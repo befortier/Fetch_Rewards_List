@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5759A1D523F2029C0075FDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A1D423F2029C0075FDE8 /* AppDelegate.swift */; };
+		5759A1D723F2029C0075FDE8 /* ItemListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A1D623F2029C0075FDE8 /* ItemListController.swift */; };
+		5759A1DC23F2029E0075FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5759A1DB23F2029E0075FDE8 /* Assets.xcassets */; };
+		5759A1DF23F2029E0075FDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5759A1DD23F2029E0075FDE8 /* LaunchScreen.storyboard */; };
+		5759A1EA23F2029E0075FDE8 /* Fetch_Reward_ListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A1E923F2029E0075FDE8 /* Fetch_Reward_ListsTests.swift */; };
+		5759A1F523F2029E0075FDE8 /* Fetch_Reward_ListsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A1F423F2029E0075FDE8 /* Fetch_Reward_ListsUITests.swift */; };
+		5759A20323F202B10075FDE8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A20223F202B10075FDE8 /* Helper.swift */; };
+		5759A20523F2034F0075FDE8 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A20423F2034F0075FDE8 /* Secret.swift */; };
+		5759A20723F2144D0075FDE8 /* ItemListControllerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A20623F2144D0075FDE8 /* ItemListControllerData.swift */; };
+		5759A20923F21A490075FDE8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A20823F21A490075FDE8 /* ItemCell.swift */; };
+		5759A20D23F21C020075FDE8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759A20C23F21C020075FDE8 /* CircleView.swift */; };
+		5FB33ECFF6F597E0EC7A6F06 /* Pods_Fetch_Reward_ListsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5812F9FC7A12A67DB433FA /* Pods_Fetch_Reward_ListsTests.framework */; };
+		BB6D25555A88119F19E29C73 /* Pods_Fetch_Reward_ListsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906D55E86C5B8678324BCD60 /* Pods_Fetch_Reward_ListsUITests.framework */; };
+		FD7A7263581D48259C6238F1 /* Pods_Fetch_Reward_Lists.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8170735099E6DD1121E58A8D /* Pods_Fetch_Reward_Lists.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5759A1E623F2029E0075FDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5759A1C923F2029C0075FDE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5759A1D023F2029C0075FDE8;
+			remoteInfo = "Fetch Reward Lists";
+		};
+		5759A1F123F2029E0075FDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5759A1C923F2029C0075FDE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5759A1D023F2029C0075FDE8;
+			remoteInfo = "Fetch Reward Lists";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AEAC2F4FC3B3059E5D75C8 /* Pods-Fetch Reward ListsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward ListsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward ListsUITests/Pods-Fetch Reward ListsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		181750C098D4472909828558 /* Pods-Fetch Reward ListsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward ListsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward ListsUITests/Pods-Fetch Reward ListsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BA18670E9A2F060CDCF216E /* Pods-Fetch Reward Lists.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward Lists.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward Lists/Pods-Fetch Reward Lists.debug.xcconfig"; sourceTree = "<group>"; };
+		5759A1D123F2029C0075FDE8 /* Fetch Reward Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Reward Lists.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5759A1D423F2029C0075FDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5759A1D623F2029C0075FDE8 /* ItemListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListController.swift; sourceTree = "<group>"; };
+		5759A1DB23F2029E0075FDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5759A1DE23F2029E0075FDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5759A1E023F2029E0075FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5759A1E523F2029E0075FDE8 /* Fetch Reward ListsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Reward ListsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5759A1E923F2029E0075FDE8 /* Fetch_Reward_ListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Reward_ListsTests.swift; sourceTree = "<group>"; };
+		5759A1EB23F2029E0075FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5759A1F023F2029E0075FDE8 /* Fetch Reward ListsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Reward ListsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5759A1F423F2029E0075FDE8 /* Fetch_Reward_ListsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Reward_ListsUITests.swift; sourceTree = "<group>"; };
+		5759A1F623F2029E0075FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5759A20223F202B10075FDE8 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5759A20423F2034F0075FDE8 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		5759A20623F2144D0075FDE8 /* ItemListControllerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListControllerData.swift; sourceTree = "<group>"; };
+		5759A20823F21A490075FDE8 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		5759A20C23F21C020075FDE8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8170735099E6DD1121E58A8D /* Pods_Fetch_Reward_Lists.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Reward_Lists.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906D55E86C5B8678324BCD60 /* Pods_Fetch_Reward_ListsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Reward_ListsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BD284A0FF7C8762F2F764B /* Pods-Fetch Reward ListsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward ListsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward ListsTests/Pods-Fetch Reward ListsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2CC45C209B68ADD311EA99D /* Pods-Fetch Reward Lists.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward Lists.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward Lists/Pods-Fetch Reward Lists.release.xcconfig"; sourceTree = "<group>"; };
+		EA5812F9FC7A12A67DB433FA /* Pods_Fetch_Reward_ListsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Reward_ListsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC40365F937694C284378CE4 /* Pods-Fetch Reward ListsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Reward ListsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fetch Reward ListsTests/Pods-Fetch Reward ListsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5759A1CE23F2029C0075FDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A7263581D48259C6238F1 /* Pods_Fetch_Reward_Lists.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1E223F2029E0075FDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB33ECFF6F597E0EC7A6F06 /* Pods_Fetch_Reward_ListsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1ED23F2029E0075FDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6D25555A88119F19E29C73 /* Pods_Fetch_Reward_ListsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564BE67DB8891A2CF87FEC56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA18670E9A2F060CDCF216E /* Pods-Fetch Reward Lists.debug.xcconfig */,
+				C2CC45C209B68ADD311EA99D /* Pods-Fetch Reward Lists.release.xcconfig */,
+				A0BD284A0FF7C8762F2F764B /* Pods-Fetch Reward ListsTests.debug.xcconfig */,
+				FC40365F937694C284378CE4 /* Pods-Fetch Reward ListsTests.release.xcconfig */,
+				01AEAC2F4FC3B3059E5D75C8 /* Pods-Fetch Reward ListsUITests.debug.xcconfig */,
+				181750C098D4472909828558 /* Pods-Fetch Reward ListsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5759A1C823F2029C0075FDE8 = {
+			isa = PBXGroup;
+			children = (
+				5759A1D323F2029C0075FDE8 /* Fetch Reward Lists */,
+				5759A1E823F2029E0075FDE8 /* Fetch Reward ListsTests */,
+				5759A1F323F2029E0075FDE8 /* Fetch Reward ListsUITests */,
+				5759A1D223F2029C0075FDE8 /* Products */,
+				564BE67DB8891A2CF87FEC56 /* Pods */,
+				A867A4299C4B67521E0414F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5759A1D223F2029C0075FDE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5759A1D123F2029C0075FDE8 /* Fetch Reward Lists.app */,
+				5759A1E523F2029E0075FDE8 /* Fetch Reward ListsTests.xctest */,
+				5759A1F023F2029E0075FDE8 /* Fetch Reward ListsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5759A1D323F2029C0075FDE8 /* Fetch Reward Lists */ = {
+			isa = PBXGroup;
+			children = (
+				5759A20B23F21BF30075FDE8 /* Helper */,
+				5759A20A23F21BDE0075FDE8 /* ItemController */,
+				5759A1D423F2029C0075FDE8 /* AppDelegate.swift */,
+				5759A1DB23F2029E0075FDE8 /* Assets.xcassets */,
+				5759A1DD23F2029E0075FDE8 /* LaunchScreen.storyboard */,
+				5759A1E023F2029E0075FDE8 /* Info.plist */,
+			);
+			path = "Fetch Reward Lists";
+			sourceTree = "<group>";
+		};
+		5759A1E823F2029E0075FDE8 /* Fetch Reward ListsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5759A1E923F2029E0075FDE8 /* Fetch_Reward_ListsTests.swift */,
+				5759A1EB23F2029E0075FDE8 /* Info.plist */,
+			);
+			path = "Fetch Reward ListsTests";
+			sourceTree = "<group>";
+		};
+		5759A1F323F2029E0075FDE8 /* Fetch Reward ListsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5759A1F423F2029E0075FDE8 /* Fetch_Reward_ListsUITests.swift */,
+				5759A1F623F2029E0075FDE8 /* Info.plist */,
+			);
+			path = "Fetch Reward ListsUITests";
+			sourceTree = "<group>";
+		};
+		5759A20A23F21BDE0075FDE8 /* ItemController */ = {
+			isa = PBXGroup;
+			children = (
+				5759A20823F21A490075FDE8 /* ItemCell.swift */,
+				5759A1D623F2029C0075FDE8 /* ItemListController.swift */,
+				5759A20623F2144D0075FDE8 /* ItemListControllerData.swift */,
+			);
+			path = ItemController;
+			sourceTree = "<group>";
+		};
+		5759A20B23F21BF30075FDE8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5759A20223F202B10075FDE8 /* Helper.swift */,
+				5759A20423F2034F0075FDE8 /* Secret.swift */,
+				5759A20C23F21C020075FDE8 /* CircleView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A867A4299C4B67521E0414F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8170735099E6DD1121E58A8D /* Pods_Fetch_Reward_Lists.framework */,
+				EA5812F9FC7A12A67DB433FA /* Pods_Fetch_Reward_ListsTests.framework */,
+				906D55E86C5B8678324BCD60 /* Pods_Fetch_Reward_ListsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5759A1D023F2029C0075FDE8 /* Fetch Reward Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5759A1F923F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward Lists" */;
+			buildPhases = (
+				F05EA1CCEFD06CC3B736DE6D /* [CP] Check Pods Manifest.lock */,
+				5759A1CD23F2029C0075FDE8 /* Sources */,
+				5759A1CE23F2029C0075FDE8 /* Frameworks */,
+				5759A1CF23F2029C0075FDE8 /* Resources */,
+				9D2DEE7C93E761B9C9226146 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Reward Lists";
+			productName = "Fetch Reward Lists";
+			productReference = 5759A1D123F2029C0075FDE8 /* Fetch Reward Lists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5759A1E423F2029E0075FDE8 /* Fetch Reward ListsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5759A1FC23F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward ListsTests" */;
+			buildPhases = (
+				2EDA413E115038610B291B53 /* [CP] Check Pods Manifest.lock */,
+				5759A1E123F2029E0075FDE8 /* Sources */,
+				5759A1E223F2029E0075FDE8 /* Frameworks */,
+				5759A1E323F2029E0075FDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5759A1E723F2029E0075FDE8 /* PBXTargetDependency */,
+			);
+			name = "Fetch Reward ListsTests";
+			productName = "Fetch Reward ListsTests";
+			productReference = 5759A1E523F2029E0075FDE8 /* Fetch Reward ListsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5759A1EF23F2029E0075FDE8 /* Fetch Reward ListsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5759A1FF23F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward ListsUITests" */;
+			buildPhases = (
+				0C71DF157AE3FE452DA72E02 /* [CP] Check Pods Manifest.lock */,
+				5759A1EC23F2029E0075FDE8 /* Sources */,
+				5759A1ED23F2029E0075FDE8 /* Frameworks */,
+				5759A1EE23F2029E0075FDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5759A1F223F2029E0075FDE8 /* PBXTargetDependency */,
+			);
+			name = "Fetch Reward ListsUITests";
+			productName = "Fetch Reward ListsUITests";
+			productReference = 5759A1F023F2029E0075FDE8 /* Fetch Reward ListsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5759A1C923F2029C0075FDE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WuDev;
+				TargetAttributes = {
+					5759A1D023F2029C0075FDE8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5759A1E423F2029E0075FDE8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5759A1D023F2029C0075FDE8;
+					};
+					5759A1EF23F2029E0075FDE8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5759A1D023F2029C0075FDE8;
+					};
+				};
+			};
+			buildConfigurationList = 5759A1CC23F2029C0075FDE8 /* Build configuration list for PBXProject "Fetch Reward Lists" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5759A1C823F2029C0075FDE8;
+			productRefGroup = 5759A1D223F2029C0075FDE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5759A1D023F2029C0075FDE8 /* Fetch Reward Lists */,
+				5759A1E423F2029E0075FDE8 /* Fetch Reward ListsTests */,
+				5759A1EF23F2029E0075FDE8 /* Fetch Reward ListsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5759A1CF23F2029C0075FDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5759A1DF23F2029E0075FDE8 /* LaunchScreen.storyboard in Resources */,
+				5759A1DC23F2029E0075FDE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1E323F2029E0075FDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1EE23F2029E0075FDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C71DF157AE3FE452DA72E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Reward ListsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EDA413E115038610B291B53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Reward ListsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2DEE7C93E761B9C9226146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fetch Reward Lists/Pods-Fetch Reward Lists-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenSans/OpenSans.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSans.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fetch Reward Lists/Pods-Fetch Reward Lists-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05EA1CCEFD06CC3B736DE6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Reward Lists-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5759A1CD23F2029C0075FDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5759A20323F202B10075FDE8 /* Helper.swift in Sources */,
+				5759A20723F2144D0075FDE8 /* ItemListControllerData.swift in Sources */,
+				5759A20923F21A490075FDE8 /* ItemCell.swift in Sources */,
+				5759A20523F2034F0075FDE8 /* Secret.swift in Sources */,
+				5759A1D723F2029C0075FDE8 /* ItemListController.swift in Sources */,
+				5759A20D23F21C020075FDE8 /* CircleView.swift in Sources */,
+				5759A1D523F2029C0075FDE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1E123F2029E0075FDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5759A1EA23F2029E0075FDE8 /* Fetch_Reward_ListsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5759A1EC23F2029E0075FDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5759A1F523F2029E0075FDE8 /* Fetch_Reward_ListsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5759A1E723F2029E0075FDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5759A1D023F2029C0075FDE8 /* Fetch Reward Lists */;
+			targetProxy = 5759A1E623F2029E0075FDE8 /* PBXContainerItemProxy */;
+		};
+		5759A1F223F2029E0075FDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5759A1D023F2029C0075FDE8 /* Fetch Reward Lists */;
+			targetProxy = 5759A1F123F2029E0075FDE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5759A1DD23F2029E0075FDE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5759A1DE23F2029E0075FDE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5759A1F723F2029E0075FDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5759A1F823F2029E0075FDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5759A1FA23F2029E0075FDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA18670E9A2F060CDCF216E /* Pods-Fetch Reward Lists.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward Lists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-Lists";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5759A1FB23F2029E0075FDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2CC45C209B68ADD311EA99D /* Pods-Fetch Reward Lists.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward Lists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-Lists";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5759A1FD23F2029E0075FDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BD284A0FF7C8762F2F764B /* Pods-Fetch Reward ListsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward ListsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-ListsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Reward Lists.app/Fetch Reward Lists";
+			};
+			name = Debug;
+		};
+		5759A1FE23F2029E0075FDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC40365F937694C284378CE4 /* Pods-Fetch Reward ListsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward ListsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-ListsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Reward Lists.app/Fetch Reward Lists";
+			};
+			name = Release;
+		};
+		5759A20023F2029E0075FDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01AEAC2F4FC3B3059E5D75C8 /* Pods-Fetch Reward ListsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward ListsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-ListsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Reward Lists";
+			};
+			name = Debug;
+		};
+		5759A20123F2029E0075FDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181750C098D4472909828558 /* Pods-Fetch Reward ListsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZ9HBNF3UK;
+				INFOPLIST_FILE = "Fetch Reward ListsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WuDev.Fetch-Reward-ListsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Reward Lists";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5759A1CC23F2029C0075FDE8 /* Build configuration list for PBXProject "Fetch Reward Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759A1F723F2029E0075FDE8 /* Debug */,
+				5759A1F823F2029E0075FDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5759A1F923F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759A1FA23F2029E0075FDE8 /* Debug */,
+				5759A1FB23F2029E0075FDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5759A1FC23F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward ListsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759A1FD23F2029E0075FDE8 /* Debug */,
+				5759A1FE23F2029E0075FDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5759A1FF23F2029E0075FDE8 /* Build configuration list for PBXNativeTarget "Fetch Reward ListsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5759A20023F2029E0075FDE8 /* Debug */,
+				5759A20123F2029E0075FDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5759A1C923F2029C0075FDE8 /* Project object */;
+}
