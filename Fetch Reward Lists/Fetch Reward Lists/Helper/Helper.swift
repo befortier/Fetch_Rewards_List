@@ -15,8 +15,7 @@ extension UIView {
                 height: NSLayoutDimension? = nil,
                 width: NSLayoutDimension? = nil,
                 sizeMultiplier: CGSize = .zero,
-                padding: UIEdgeInsets = .zero,
-                size: CGSize = .zero) {
+                padding: UIEdgeInsets = .zero) {
         
         translatesAutoresizingMaskIntoConstraints = false
         if let top = top{
@@ -41,18 +40,6 @@ extension UIView {
                 widthAnchor.constraint(equalTo: width, multiplier: sizeMultiplier.width).isActive = true
             }
         }
-        
-        if size.width != 0 {
-            widthAnchor.constraint(equalToConstant: size.width).isActive = true
-        }
-        
-        if size.height != 0 {
-            heightAnchor.constraint(equalToConstant: size.height).isActive = true
-        }
-    }
-    
-    func anchor(equalTo: UIView, padding: UIEdgeInsets = .zero, sizeMultiplier: CGSize = .zero){
-        self.anchor(top: equalTo.topAnchor, leading: equalTo.leadingAnchor, bottom: equalTo.bottomAnchor, trailing: equalTo.trailingAnchor, padding: padding)
     }
     
     func anchor(height: UIView, width: UIView, sizeMultiplier: CGSize){
