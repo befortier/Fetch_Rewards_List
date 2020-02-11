@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Fetch Reward Lists
-//
-//  Created by Rena fortier on 2/10/20.
-//  Copyright © 2020 WuDev. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
