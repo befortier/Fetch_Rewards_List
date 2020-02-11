@@ -3,8 +3,8 @@ import Alamofire
 
 extension ItemListController {
     func getSortedData(completion:@escaping([Item]) -> (Void)){
-        requestList { [weak self] (err, items) in
-            if err != nil{
+        requestList { [weak self] (error, items) in
+            if let err = error{
                 print("ERROR HERE", err)
                 completion([])
             }
