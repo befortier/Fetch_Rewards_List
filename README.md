@@ -2,7 +2,7 @@
 
 ## General Notes:
 
-Codebase should be pretty modular and clean. For view controller data functions are in a seperate file than UI functions. Any helper functions are in seperate files and folder. 
+Codebase should be pretty modular and clean. For view controller data functions are in a seperate file than UI functions. Any helper functions are in seperate files and folder. Project also should have no warnings or errors.
 
 ## UI:
 
